@@ -1,0 +1,29 @@
+.card {
+  height: 175px;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.card-user {
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
